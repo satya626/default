@@ -11,7 +11,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		features = "Feature"
 		,plugin = {"json:target/cucumber.json"}
 		,glue={"stepDef"}
-		,tags={"@LoginTest"}
+		//,tags={"@LoginTest"}
 		//,dryRun=true
 		//
 		,monochrome=true
