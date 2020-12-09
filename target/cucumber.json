@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User should already have an account in FreeCRM Portal",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17619684700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FreeCRM_stepDef.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Successful Login",
+        "description": "",
+        "id": "freecrm-website;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21583135700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Login page",
+            "match": {
+              "location": "FreeCRM_stepDef.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3303795300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters valid UserName and Password",
+            "match": {
+              "location": "FreeCRM_stepDef.user_enters_valid_UserName_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3081108500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicks on login",
+            "match": {
+              "location": "FreeCRM_stepDef.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3019417500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be navigated to Home Page",
+            "match": {
+              "location": "FreeCRM_stepDef.user_should_be_navigated_to_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTest"
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Website",
+    "description": "",
+    "id": "freecrm-website",
+    "keyword": "Feature",
+    "uri": "Feature/FreeCRM.feature",
+    "tags": []
+  }
+]
